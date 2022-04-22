@@ -22,7 +22,7 @@
     "dacron.mixins.json"
   ],
   "depends": {
-    "fabricloader": ">=0.14.0",
+    "fabricloader": "*",
     "fabric": "*",
     "minecraft": "1.14.4"
   }

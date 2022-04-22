@@ -4,6 +4,7 @@
   "package": "committee.nova.dacron.common.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
+    "MixinItemEntity",
     "MixinSmithingTable"
   ],
   "client": [

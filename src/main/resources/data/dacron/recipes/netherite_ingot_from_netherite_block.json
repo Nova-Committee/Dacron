@@ -3,11 +3,11 @@
   "group": "netherite_ingot",
   "ingredients": [
     {
-      "item": "minecraft:netherite_block"
+      "item": "dacron:netherite_block"
     }
   ],
   "result": {
-    "item": "minecraft:netherite_ingot",
+    "item": "dacron:netherite_ingot",
     "count": 9
   }
 }

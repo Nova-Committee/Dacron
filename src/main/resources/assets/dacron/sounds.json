@@ -1,0 +1,217 @@
+{
+  "block.smithing_table.use": {
+    "sounds": [
+      "dacron:block/smithing_table/smithing_table1",
+      "dacron:block/smithing_table/smithing_table2",
+      "dacron:block/smithing_table/smithing_table3"
+    ],
+    "subtitle": "subtitles.dacron.block.smithing_table.use"
+  },
+  "item.armor.equip_netherite": {
+    "sounds": [
+      {
+        "name": "dacron:item/armor/equip_netherite1",
+        "volume": 0.8
+      },
+      {
+        "name": "dacron:item/armor/equip_netherite1",
+        "pitch": 0.9,
+        "volume": 0.8
+      },
+      {
+        "name": "dacron:item/armor/equip_netherite2",
+        "volume": 0.8
+      },
+      {
+        "name": "dacron:item/armor/equip_netherite2",
+        "pitch": 0.9,
+        "volume": 0.8
+      },
+      {
+        "name": "dacron:item/armor/equip_netherite3",
+        "volume": 0.8
+      },
+      {
+        "name": "dacron:item/armor/equip_netherite3",
+        "pitch": 0.9,
+        "volume": 0.8
+      },
+      {
+        "name": "dacron:item/armor/equip_netherite4",
+        "volume": 0.8
+      },
+      {
+        "name": "dacron:item/armor/equip_netherite4",
+        "pitch": 0.9,
+        "volume": 0.8
+      }
+    ],
+    "subtitle": "subtitles.dacron.item.armor.equip_netherite"
+  },
+  "block.netherite_block.break": {
+    "sounds": [
+      {
+        "name": "dacron:block/netherite/break1",
+        "volume": 0.95
+      },
+      {
+        "name": "dacron:block/netherite/break1",
+        "pitch": 0.9,
+        "volume": 0.95
+      },
+      {
+        "name": "dacron:block/netherite/break2",
+        "volume": 0.95
+      },
+      {
+        "name": "dacron:block/netherite/break2",
+        "pitch": 0.9,
+        "volume": 0.95
+      },
+      {
+        "name": "dacron:block/netherite/break3",
+        "volume": 0.95
+      },
+      {
+        "name": "dacron:block/netherite/break3",
+        "pitch": 0.9,
+        "volume": 0.95
+      },
+      {
+        "name": "dacron:block/netherite/break4",
+        "volume": 0.95
+      },
+      {
+        "name": "dacron:block/netherite/break4",
+        "pitch": 0.9,
+        "volume": 0.95
+      }
+    ],
+    "subtitle": "subtitles.block.generic.break"
+  },
+  "block.netherite_block.fall": {
+    "sounds": [
+      "dacron:block/netherite/step1",
+      "dacron:block/netherite/step2",
+      "dacron:block/netherite/step3",
+      "dacron:block/netherite/step4",
+      "dacron:block/netherite/step5",
+      "dacron:block/netherite/step6"
+    ]
+  },
+  "block.netherite_block.hit": {
+    "sounds": [
+      "dacron:block/netherite/step1",
+      "dacron:block/netherite/step2",
+      "dacron:block/netherite/step3",
+      "dacron:block/netherite/step4",
+      "dacron:block/netherite/step5",
+      "dacron:block/netherite/step6"
+    ],
+    "subtitle": "subtitles.block.generic.hit"
+  },
+  "block.netherite_block.place": {
+    "sounds": [
+      {
+        "name": "dacron:block/netherite/break1",
+        "volume": 0.95
+      },
+      {
+        "name": "dacron:block/netherite/break1",
+        "pitch": 0.9,
+        "volume": 0.95
+      },
+      {
+        "name": "dacron:block/netherite/break2",
+        "volume": 0.95
+      },
+      {
+        "name": "dacron:block/netherite/break2",
+        "pitch": 0.9,
+        "volume": 0.95
+      },
+      {
+        "name": "dacron:block/netherite/break3",
+        "volume": 0.95
+      },
+      {
+        "name": "dacron:block/netherite/break3",
+        "pitch": 0.9,
+        "volume": 0.95
+      },
+      {
+        "name": "dacron:block/netherite/break4",
+        "volume": 0.95
+      },
+      {
+        "name": "dacron:block/netherite/break4",
+        "pitch": 0.9,
+        "volume": 0.95
+      }
+    ],
+    "subtitle": "subtitles.block.generic.place"
+  },
+  "block.netherite_block.step": {
+    "sounds": [
+      "dacron:block/netherite/step1",
+      "dacron:block/netherite/step2",
+      "dacron:block/netherite/step3",
+      "dacron:block/netherite/step4",
+      "dacron:block/netherite/step5",
+      "dacron:block/netherite/step6"
+    ],
+    "subtitle": "subtitles.block.generic.footsteps"
+  },
+  "block.ancient_debris.break": {
+    "sounds": [
+      "dacron:block/ancient_debris/break1",
+      "dacron:block/ancient_debris/break2",
+      "dacron:block/ancient_debris/break3",
+      "dacron:block/ancient_debris/break4",
+      "dacron:block/ancient_debris/break5"
+    ],
+    "subtitle": "subtitles.block.generic.break"
+  },
+  "block.ancient_debris.fall": {
+    "sounds": [
+      "dacron:block/basalt/step1",
+      "dacron:block/basalt/step2",
+      "dacron:block/basalt/step3",
+      "dacron:block/basalt/step4",
+      "dacron:block/basalt/step5",
+      "dacron:block/basalt/step6"
+    ]
+  },
+  "block.ancient_debris.hit": {
+    "sounds": [
+      "dacron:block/basalt/step1",
+      "dacron:block/basalt/step2",
+      "dacron:block/basalt/step3",
+      "dacron:block/basalt/step4",
+      "dacron:block/basalt/step5",
+      "dacron:block/basalt/step6"
+    ],
+    "subtitle": "subtitles.block.generic.hit"
+  },
+  "block.ancient_debris.place": {
+    "sounds": [
+      "dacron:block/ancient_debris/break1",
+      "dacron:block/ancient_debris/break2",
+      "dacron:block/ancient_debris/break3",
+      "dacron:block/ancient_debris/break4",
+      "dacron:block/ancient_debris/break5"
+    ],
+    "subtitle": "subtitles.block.generic.place"
+  },
+  "block.ancient_debris.step": {
+    "sounds": [
+      "dacron:block/basalt/step1",
+      "dacron:block/basalt/step2",
+      "dacron:block/basalt/step3",
+      "dacron:block/basalt/step4",
+      "dacron:block/basalt/step5",
+      "dacron:block/basalt/step6"
+    ],
+    "subtitle": "subtitles.block.generic.footsteps"
+  }
+}

@@ -2,6 +2,7 @@ package committee.nova.dacron.common.container.impl;
 
 import committee.nova.dacron.common.container.base.ForgingContainer;
 import committee.nova.dacron.common.recipe.impl.SmithingRecipe;
+import committee.nova.dacron.common.sound.init.SoundEventInit;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Blocks;
 import net.minecraft.container.BlockContext;
@@ -9,6 +10,7 @@ import net.minecraft.container.Slot;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.player.PlayerInventory;
 import net.minecraft.item.ItemStack;
+import net.minecraft.sound.SoundCategory;
 import net.minecraft.text.TranslatableText;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
@@ -23,13 +25,8 @@ public class SmithingContainer extends ForgingContainer {
     @Nullable
     private SmithingRecipe recipe;
 
-    public SmithingContainer(int syncId, PlayerInventory playerInventory) {
-        this(syncId, playerInventory, BlockContext.EMPTY);
-    }
-
     public SmithingContainer(int syncId, PlayerInventory playerInventory, BlockContext context) {
         super(null, syncId, playerInventory, context);
-        //todo: null?
         this.world = playerInventory.player.world;
         this.recipeList = this.world.getRecipeManager().getAllMatches(SmithingRecipe.Type.INSTANCE, playerInventory, world);
     }
@@ -48,13 +45,14 @@ public class SmithingContainer extends ForgingContainer {
     protected ItemStack onTakeOutput(PlayerEntity player, ItemStack stack) {
         stack.onCraft(player.world, player, stack.getCount());
         this.output.unlockLastRecipe(player);
-        this.method_29539(0);
-        this.method_29539(1);
+        this.decrementInvStack(0);
+        this.decrementInvStack(1);
         this.context.run((World world, BlockPos blockPos) -> world.playLevelEvent(1044, blockPos, 0));
+        player.world.playSound(null, player.getBlockPos(), SoundEventInit.soundList.get(SoundEventInit.names[1]), SoundCategory.BLOCKS, 1F, 1F);
         return stack;
     }
 
-    private void method_29539(int i) {
+    private void decrementInvStack(int i) {
         ItemStack itemStack = this.input.getInvStack(i);
         itemStack.decrement(1);
         this.input.setInvStack(i, itemStack);

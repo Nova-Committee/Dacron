@@ -3,16 +3,16 @@
   "group": "netherite_ingot",
   "ingredients": [
     {
-      "item": "minecraft:netherite_scrap"
+      "item": "dacron:netherite_scrap"
     },
     {
-      "item": "minecraft:netherite_scrap"
+      "item": "dacron:netherite_scrap"
     },
     {
-      "item": "minecraft:netherite_scrap"
+      "item": "dacron:netherite_scrap"
     },
     {
-      "item": "minecraft:netherite_scrap"
+      "item": "dacron:netherite_scrap"
     },
     {
       "item": "minecraft:gold_ingot"
@@ -28,6 +28,6 @@
     }
   ],
   "result": {
-    "item": "minecraft:netherite_ingot"
+    "item": "dacron:netherite_ingot"
   }
 }

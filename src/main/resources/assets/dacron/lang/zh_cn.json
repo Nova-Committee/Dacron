@@ -1,0 +1,18 @@
+{
+  "block.dacron.netherite_block": "下界合金块",
+  "block.dacron.ancient_debris": "远古残骸",
+  "gui.dacron.smithing.title": "升级装备",
+  "item.dacron.netherite_scrap": "下界合金碎片",
+  "item.dacron.netherite_ingot": "下界合金锭",
+  "item.dacron.netherite_helmet": "下界合金头盔",
+  "item.dacron.netherite_chestplate": "下界合金胸甲",
+  "item.dacron.netherite_leggings": "下界合金护腿",
+  "item.dacron.netherite_boots": "下界合金靴子",
+  "item.dacron.netherite_axe": "下界合金斧",
+  "item.dacron.netherite_pickaxe": "下界合金镐",
+  "item.dacron.netherite_hoe": "下界合金锄",
+  "item.dacron.netherite_shovel": "下界合金锹",
+  "item.dacron.netherite_sword": "下界合金剑",
+  "subtitles.dacron.block.smithing_table.use": "锻造台：使用",
+  "subtitles.dacron.item.armor.equip_netherite": "下界合金盔甲：铿锵"
+}

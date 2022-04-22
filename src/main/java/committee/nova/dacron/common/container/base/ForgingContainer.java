@@ -19,7 +19,6 @@ public abstract class ForgingContainer extends Container {
     protected final CraftingResultInventory output = new CraftingResultInventory();
     protected final BlockContext context;
     protected final Inventory input = new BasicInventory(2) {
-
         @Override
         public void markDirty() {
             super.markDirty();

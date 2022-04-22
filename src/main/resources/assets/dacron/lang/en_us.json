@@ -1,3 +1,18 @@
 {
-  "gui.dacron.smithing.title": "Upgrade Gear"
+  "block.dacron.netherite_block": "Block of Netherite",
+  "block.dacron.ancient_debris": "Ancient Debris",
+  "gui.dacron.smithing.title": "Upgrade Gear",
+  "item.dacron.netherite_scrap": "Netherite Scrap",
+  "item.dacron.netherite_ingot": "Netherite Ingot",
+  "item.dacron.netherite_helmet": "Netherite Helmet",
+  "item.dacron.netherite_chestplate": "Netherite Chestplate",
+  "item.dacron.netherite_leggings": "Netherite Leggings",
+  "item.dacron.netherite_boots": "Netherite Boots",
+  "item.dacron.netherite_axe": "Netherite Axe",
+  "item.dacron.netherite_pickaxe": "Netherite Pickaxe",
+  "item.dacron.netherite_hoe": "Netherite Hoe",
+  "item.dacron.netherite_shovel": "Netherite Shovel",
+  "item.dacron.netherite_sword": "Netherite Sword",
+  "subtitles.dacron.block.smithing_table.use": "Smithing Table Used",
+  "subtitles.dacron.item.armor.equip_netherite": "Netherite armor clanks"
 }

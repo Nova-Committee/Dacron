@@ -4,10 +4,13 @@ import com.mojang.blaze3d.platform.GlStateManager;
 import committee.nova.dacron.Dacron;
 import committee.nova.dacron.client.screen.base.ForgingScreen;
 import committee.nova.dacron.common.container.impl.SmithingContainer;
+import net.fabricmc.api.EnvType;
+import net.fabricmc.api.Environment;
 import net.minecraft.entity.player.PlayerInventory;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 
+@Environment(value = EnvType.CLIENT)
 public class SmithingScreen extends ForgingScreen<SmithingContainer> {
     private static final Identifier TEXTURE = new Identifier(Dacron.MODID, "textures/gui/container/smithing.png");
     private final int x;

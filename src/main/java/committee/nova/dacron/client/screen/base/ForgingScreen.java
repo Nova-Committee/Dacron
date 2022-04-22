@@ -2,6 +2,8 @@ package committee.nova.dacron.client.screen.base;
 
 import com.mojang.blaze3d.platform.GlStateManager;
 import committee.nova.dacron.common.container.base.ForgingContainer;
+import net.fabricmc.api.EnvType;
+import net.fabricmc.api.Environment;
 import net.minecraft.client.MinecraftClient;
 import net.minecraft.client.gui.screen.ingame.ContainerScreen;
 import net.minecraft.container.Container;
@@ -12,8 +14,9 @@ import net.minecraft.text.Text;
 import net.minecraft.util.DefaultedList;
 import net.minecraft.util.Identifier;
 
+@Environment(value = EnvType.CLIENT)
 public class ForgingScreen<T extends ForgingContainer> extends ContainerScreen<T> implements ContainerListener {
-    private Identifier texture;
+    private final Identifier texture;
 
     public ForgingScreen(T handler, PlayerInventory playerInventory, Text title, Identifier texture) {
         super(handler, playerInventory, title);
@@ -21,6 +24,8 @@ public class ForgingScreen<T extends ForgingContainer> extends ContainerScreen<T
     }
 
     protected void setup() {
+        if (minecraft == null) return;
+        minecraft.keyboard.enableRepeatEvents(true);
     }
 
     @Override
@@ -34,6 +39,15 @@ public class ForgingScreen<T extends ForgingContainer> extends ContainerScreen<T
     public void removed() {
         super.removed();
         this.container.removeListener(this);
+    }
+
+    @Override
+    public boolean keyPressed(int keyCode, int scanCode, int modifiers) {
+        if (minecraft == null) return false;
+        if (keyCode == 256) {
+            minecraft.player.closeContainer();
+        }
+        return super.keyPressed(keyCode, scanCode, modifiers);
     }
 
     @Override

@@ -4,9 +4,9 @@
     "item": "minecraft:diamond_pickaxe"
   },
   "addition": {
-    "item": "minecraft:netherite_ingot"
+    "item": "dacron:netherite_ingot"
   },
   "result": {
-    "item": "minecraft:netherite_pickaxe"
+    "item": "dacron:netherite_pickaxe"
   }
 }
