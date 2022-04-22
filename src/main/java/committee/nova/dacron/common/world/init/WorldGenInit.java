@@ -21,7 +21,7 @@ public class WorldGenInit {
 
     private static void addToBiome(Biome biome) {
         if (biome.getCategory() == Biome.Category.NETHER) {
-            addOre(biome, OreFeatureConfig.Target.NETHERRACK, 3, 2, 8, 119, BlockInit.blockList.get(BlockInit.blockNames[0]).getDefaultState());
+            addOre(biome, OreFeatureConfig.Target.NETHERRACK, 3, 3, 8, 119, BlockInit.blockList.get(BlockInit.blockNames[0]).getDefaultState());
         }
     }
 
